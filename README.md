@@ -1,2 +1,0 @@
-# penjumlahandasar
-Latihan Penjumlahan Dasar

@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f8ff;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+h1 {
+    color: #3333cc;
+    font-size: 40px; /* Meningkatkan ukuran font untuk judul */
+    margin-bottom: 20px;
+}
+
+#question-container {
+    font-size: 30px; /* Meningkatkan ukuran font untuk soal */
+    margin-top: 20px;
+}
+
+input[type="number"] {
+    width: 80px;
+    padding: 10px;
+    font-size: 24px; /* Meningkatkan ukuran font untuk input jawaban */
+    border-radius: 5px;
+    border: 2px solid #ddd;
+    text-align: center;
+    margin: 0 10px;
+}
+
+button {
+    background-color: #3333cc;
+    color: white;
+    padding: 12px 20px;
+    font-size: 20px; /* Meningkatkan ukuran font untuk tombol */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#notification {
+    margin-top: 15px;
+    font-size: 24px; /* Meningkatkan ukuran font untuk notifikasi */
+    font-weight: bold;
+}
